@@ -1,13 +1,19 @@
 scorebot 3.0
 ========
 
-Scoring Engine for CTF competitions
-https://github.com/dichotomy/scorebot
+> A fork of https://github.com/dichotomy/scorebot - with initial purpose to fix and document service content checking
 
-DESCRIPTION
+
+
+## DESCRIPTION
 Scorebot is a scoring engine for CTF competitions.  It is built upon a Blue Team / Red Team model, where Blue Teams defend flags against Red teams.  (Blue Teams may also attack other Blue Teams to steal flags).  Scoring is based upon flags stolen, scored service up time, and injects submitted (there is no scoring tracking for injects yet).
 
-DEPENDENCIES
+## WIKI
+
+Added a few things to wiki that you might want to know https://github.com/h4sh5/scorebot/wiki
+
+
+## DEPENDENCIES
 Scorebot depends upon dnspython (http://www.dnspython.org/).
 Scorebot runs best in Linux, but should work in Windows (never tested, no promises).
 Python 2.7 or greater is recommended.
@@ -23,10 +29,10 @@ To install all dependencies on Ubuntu, run:
 
 
 
-BUGS
+## BUGS
 Yes, there are bugs.  These will be documented later.  ;)
 
-COPYRIGHT
+## COPYRIGHT
 
 Copyright (C) 2011  Dichotomy <dichotomy@riseup.net>
 
